@@ -9,8 +9,7 @@ function App() {
   const dispatch = useDispatch();
 
   React.useEffect(() => {
-    // Fetch and initialize data here
-    // For now, using static data
+    
     const initialData = {
       categories: [
         {
