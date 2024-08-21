@@ -1,1 +1,39 @@
+CNAPP Dashboard
 
+
+It is a dynamic React application for managing widgets across different categories. It allows users to add and remove widgets, search through them, and view them.
+
+Features:
+Dynamic Widget Management: Add and remove widgets from different categories.
+Search Functionality: Search through all widgets.
+Category-Based Widget Display: Widgets are displayed according to their respective categories.
+Responsive UI: Uses Tailwind CSS for styling and responsive design.
+
+Technology Stack
+Frontend: React, Tailwind CSS
+State Management: Redux Toolkit
+
+Install Dependencies
+Using npm
+
+File Structure
+src/: Main source folder
+components/: React components
+Header.js: Header component with a search bar and hamburger icon
+Sidebar.js: Sidebar component for showing all widgets
+Dashboard.js: Main dashboard displaying categories and widgets
+Widget.js: Widget component for displaying individual widgets
+AddWidget.js: Component for adding new widgets
+store.js: Redux store configuration and slice
+App.js: Main application component
+index.js: Entry point of the React application
+
+Usage
+Adding Widgets:
+Click on the "+ Add Widget" button within each category to add a new widget. You will be prompted to enter a widget name and text.
+
+Removing Widgets:
+Click the "x" button on each widget to remove it from the category. You can also use the sidebar checklist to manage widget visibility.
+
+Searching Widgets:
+Use the search bar in the header to filter widgets by name across all categories.
