@@ -1,0 +1,65 @@
+{
+    "categories": [
+      {
+        "id": "c1",
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "id": "w1",
+            "name": "Widget 1",
+            "text": "This is widget 1 text."
+          },
+          {
+            "id": "w2",
+            "name": "Widget 2",
+            "text": "This is widget 2 text."
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "CWPP Dashboard",
+        "widgets": [
+          {
+            "id": "w3",
+            "name": "Widget 3",
+            "text": "This is widget 3 text."
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Registry Scan",
+        "widgets": [
+          {
+            "id": "w4",
+            "name": "Widget 4",
+            "text": "This is widget 4 text."
+          }
+        ]
+      }
+    ],
+    "allWidgets": [
+      {
+        "id": "w1",
+        "name": "Widget 1",
+        "text": "This is widget 1 text."
+      },
+      {
+        "id": "w2",
+        "name": "Widget 2",
+        "text": "This is widget 2 text."
+      },
+      {
+        "id": "w3",
+        "name": "Widget 3",
+        "text": "This is widget 3 text."
+      },
+      {
+        "id": "w4",
+        "name": "Widget 4",
+        "text": "This is widget 4 text."
+      }
+    ]
+  }
+  
