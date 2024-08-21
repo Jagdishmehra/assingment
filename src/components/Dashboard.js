@@ -7,7 +7,7 @@ const Dashboard = () => {
   const categories = useSelector(state => state.dashboard.categories);
   const searchTerm = useSelector(state => state.dashboard.searchTerm);
 
-  // Filter widgets based on search term
+  
   const filteredCategories = categories.map(category => ({
     ...category,
     widgets: category.widgets.filter(widget =>
